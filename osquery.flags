@@ -8,5 +8,5 @@
 --pidfile=C:\ProgramData\osquery\osquery.pid
 --disable_watchdog=false
 --disable_events=false
---windows_event_channels=System,Application,Setup,Security
+--windows_event_channels="System,Application,Setup,Security,Microsoft-Windows-Powershell/Operational"
 --verbose
